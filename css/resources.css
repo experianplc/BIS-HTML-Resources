@@ -1,0 +1,39 @@
+#panelTopics .box_bd h1,
+#panelTopics .box_bd h2,
+#panelTopics .box_bd h3,
+#panelTopics .box_bd h4,
+#panelTopics .box_bd h5,
+#panelTopics .box_bd h6 {
+	font-style: normal;
+	font-weight: bold;
+}
+#panelTopics .box_bd h1 {
+	font-size:32px;
+}
+#panelTopics .box_bd h2 {
+	font-size:24px;
+}
+#panelTopics .box_bd h3 {
+	font-size:18.7167px;
+}
+#panelTopics .box_bd h4 {
+	font-size:16px;
+}
+#panelTopics .box_bd h5 {
+	font-size:13.2833px;
+}
+#panelTopics .box_bd h6 {
+	font-size:10.7167px;
+}
+#panelTopics .box_bd ol li {
+	list-style-type:decimal;
+}
+#panelTopics .box_bd ul li {
+	list-style-type:disc;
+}
+#panelTopics .box_bd p {
+	margin-bottom:16px;
+}
+#panelTopics .box_bd strong {
+	font-weight:bold;
+}

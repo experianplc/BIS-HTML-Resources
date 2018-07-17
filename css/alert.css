@@ -1,0 +1,58 @@
+
+.alert-table-header 
+{
+	background:transparent url(../images/top-bottom.gif) repeat-x scroll 0pt -1px;
+	border:1px solid #99BBE8;
+	color:#15428B;
+	font-family:Roboto;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:15px;
+	overflow:hidden;
+	text-align:center;
+	vertical-align: bottom;
+}
+.yui-dt0-col-alert_details{
+	 background-color: #F0F0F0;
+ 	 vertical-align: top;
+	
+}
+
+.yui-dt0-col-alert_id {
+			  background-color: #F0F0F0;
+ 			  vertical-align: top;
+}
+
+.yui-dt0-col-trigger_type{
+			  background-color: #F0F0F0;
+			  vertical-align: top;
+}
+.yui-dt0-col-alert_date{
+	        background-color: #F0F0F0;
+	 		vertical-align: top;
+}
+
+.yui-dt0-col-priority {
+	background-color: #F0F0F0;
+	vertical-align: top;
+}
+.yui-dt0-col-alert_details {
+	background-color: #F0F0F0;
+	vertical-align: top;
+}
+.yui-dt-label{
+	font-family:Roboto;
+	font-size:13px;
+	font-weight:bold;
+	color:#15428B;
+}
+
+.yui-dt0-col-alert_details .yui-dt-liner {
+overflow:hidden;
+padding:0;
+width:400px;
+}

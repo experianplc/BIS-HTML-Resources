@@ -1,0 +1,6 @@
+/*
+Fix for Sys admin -> List of Business IQ users
+*/
+.last_td_fix{
+	width: 150px !important;
+}

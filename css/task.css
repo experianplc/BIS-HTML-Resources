@@ -1,0 +1,58 @@
+#task_panel td {
+	padding: 5px;
+}
+
+/* controls body layout of a popup panel or dialog*/
+#tasklist_panel .bd {
+	padding: 0px;
+}
+
+/* controls footer layout of a popup panel or dialog*/
+#tasklist_panel .ft {
+	height: 30px;	
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+
+#tasklist_panel .ft .button_group {
+	padding: 2px;
+}
+
+#tasklist_panel .hd .button_group {
+	margin-left: 525px;
+}
+
+#task_panel .ft {
+	height: 30px;	
+	padding: 0px 10px 5px;
+}
+
+#my_tasks table {
+	border: none;
+}
+
+#my_tasks td {
+	border: none;
+}
+
+#my_tasks div.yui-dt-bd {
+	max-height: 500px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+#my_tasks div.yui-dt-bd table td.yui-dt-col-taskName div.yui-dt-liner {
+	white-space: normal;
+}
+
+#my_tasks div.yui-dt-hd table th.yui-dt-col-taskName div.yui-dt-liner,
+#my_tasks div.yui-dt-hd table th.yui-dt-col-taskDueDate div.yui-dt-liner,
+#my_tasks div.yui-dt-bd table td.yui-dt-col-taskName div.yui-dt-liner,
+#my_tasks div.yui-dt-bd table td.yui-dt-col-taskDueDate div.yui-dt-liner {
+	padding: 4px 5px;
+}
+
+#my_tasks div.yui-dt-bd table td.yui-dt-col-taskDueDate {
+	vertical-align: top;
+}

@@ -1,0 +1,8 @@
+/**
+ * This file to hold page specific CSS for dashbord module
+ */
+
+#broadcast_panel .ft {
+	height: 30px;	
+	padding: 0px 10px 5px;
+}

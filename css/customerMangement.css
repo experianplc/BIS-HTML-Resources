@@ -1,0 +1,20 @@
+#customer_details_panel .bd {
+	padding:0;
+}
+
+#customer_user_list_panel .bd {
+	padding:0;
+}
+
+#manage_customer_list_container .box_bd {
+	padding:0;
+}
+
+.subtitle_bar {
+	height: 0;
+	margin: 2px 0;
+}
+
+.expand_panel_hd_inner {
+	line-height: 25px;
+}

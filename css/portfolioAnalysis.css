@@ -1,0 +1,390 @@
+	.hiddenRows{
+		display:none;
+	}
+	.expand_box_closed {
+    	background: url(../../resources/images/reports/minus.gif) center left no-repeat;
+    	padding-left: 16px!important;
+	}
+	.expand_box_open {
+    	background: url(../../resources/images/reports/plus.gif) center left no-repeat;
+    	padding-left: 16px!important;
+	}
+
+.style-0 {
+    width: 468pt;
+    empty-cells: show
+}
+
+.style-1 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    border: none
+}
+
+.style-10 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #ffcc99;
+    border: none
+}
+
+.style-11 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    white-space: pre
+}
+
+.style-12 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 2pt;
+    color: #3300ff;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #f0f0f0;
+    border: none
+}
+
+.style-13 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 3pt;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #f0f0f0;
+    border: none
+}
+
+.style-14 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    white-space: pre
+}
+
+.style-15 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #f0f0f0;
+    border: none
+}
+
+.style-16 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 2pt;
+    color: #3300ff;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #ccffff;
+    border: none
+}
+
+.style-17 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 3pt;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #ccffff;
+    border: none
+}
+
+.style-18 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #ccffff;
+    border: none
+}
+
+.style-19 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 2pt;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #ffcc99;
+    border: none
+}
+
+.style-2 {
+    width: 467pt;
+    height: 251pt
+}
+
+.style-20 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    white-space: pre
+}
+
+.style-21 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 3pt;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #ffcc99;
+    border: none
+}
+
+.style-22 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    background-color: #ffcc99;
+    border: none
+}
+
+.style-3 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 10pt;
+    color: #3300ff;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    border: none
+}
+
+.style-4 {
+    color: #3300ff;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt
+}
+
+.style-5 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: #3300ff;
+    font-family: serif;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    white-space: pre
+}
+
+.style-6 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 6pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: right;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    border: none
+}
+
+.style-7 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 6pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: right;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    white-space: pre
+}
+
+.style-8 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 6pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    border: none
+}
+
+.style-9 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+    font-family: serif;
+    font-size: 6pt;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0pt;
+    letter-spacing: 0pt;
+    white-space: pre
+}

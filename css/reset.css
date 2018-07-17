@@ -1,0 +1,19 @@
+			/** *********************************************
+				Here try to overwrite styles from outside
+				so that those outside css doesn't affect report
+			 ** *********************************************/
+			 .report_body .value {
+				background-color: transparent;
+				width: auto;
+				text-align: inherit;
+			 }
+			/** ************* End of overwriting ************* */
+
+			/** somehow the @media screen isn't work, so below are workaround **/
+			.report_body .print_only {display: none;}
+			.report_body .hidden_on_screen {display:none}
+
+			/*body .report_body * {
+				font-family:inherit;
+				font-size: inherit;
+			}*/

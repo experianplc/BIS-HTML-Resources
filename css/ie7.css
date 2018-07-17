@@ -1,0 +1,315 @@
+input.error,
+select.error,
+textarea.error {
+	border: 2px solid red;
+}
+#navigation li {
+	height: 37px;
+	overflow: hidden;
+}
+
+#navigation a {
+	display: block;
+	padding-top: 5px;
+}
+
+#navigation a.centered {
+	padding-top: 13px;
+}
+
+.sub_navigation li {
+	height: 32px;
+	overflow: hidden;
+}
+
+.sub_navigation a {
+	display: block;
+	padding-top: 2px;
+}
+
+.button_group button {
+	margin-left: 5px;
+}
+
+#tasklist_panel {
+	width: 836px !important;
+}
+
+#tasklist_panel .yui-dt-hd {
+	width: auto !important;
+}
+
+#tasklist_panel .yui-dt-bd {
+	width: auto !important;
+}
+
+#tasklist_panel .hd .button_group {
+	margin-left: 473px;
+	margin-top: 2px;
+}
+
+#account_list .ellipsis {
+	width: 150px;
+}
+body.yui-skin-sam .mask {
+	background-color: #eee;
+	filter:alpha(opacity=75);
+}
+
+body, div {
+  scrollbar-face-color: #E0EBF5;
+  scrollbar-arrow-color: #015CAA;
+  scrollbar-track-color: #fff;
+  scrollbar-shadow-color: #adb9c2;
+  scrollbar-highlight-color: #eaf2f7;
+  scrollbar-3dlight-color: #adb9c2;
+  scrollbar-darkshadow-Color: #fff;
+}
+
+#report_content {
+	vertical-align: top;
+}
+
+#report_content b a {
+	color: #015cae;
+	text-decoration: none;
+}
+
+#report_content a sup {
+	color: #015cae;
+	font-size: medium;
+	vertical-align: super;
+}
+
+#report_content sup {
+	color: #015cae;
+	font-size: small;
+	vertical-align: super;
+}
+
+.report_toolbar .pull_new_report span {
+	vertical-align: middle;
+	margin: auto 0;
+}
+
+#account_subtitle_bar {
+	padding-bottom: 0px!important;
+}
+
+/**
+ * There is a problem on IE when position set to relative,
+ * buttons are not moving when scrolling inside a div with
+ * overflowY set to auto
+ */
+#editScorecard button {
+	position: static;
+	height:30px;
+}
+
+#editScorecard button span {
+	position: static;
+	height:30px!important;
+}
+
+div.receivable_container {
+	width: 679px;
+}
+
+body.yui-skin-sam .yui-panel .ft {
+	overflow: hidden !important;
+}
+
+/*#manage_notes_panel {
+	width: 780px!important;
+}
+
+#manage_notes_panel_notes_list {
+    width: 778px!important;
+}*/
+
+
+#manage_notes_panel_notes_list div.yui-dt-hd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#manage_notes_panel_notes_list div.yui-dt-bd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+#account_fields_mapping_spec_details_cnt {
+    width: 740px !important;
+}
+#account_fields_mapping_spec_details {
+    width: 738px !important;
+}
+
+#account_fields_mapping_spec_details div.yui-dt-hd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#account_fields_mapping_spec_details div.yui-dt-bd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.fcra_box li {
+	margin-left: 30px;
+}
+
+#portfolioListTable .yui-dt-bd {
+	overflow-x:hidden !important;
+}
+
+#manage_customer_users_panel {
+    width: 760px !important;
+}
+#manage_customer_user_list {
+    width: 758px !important;
+}
+
+#manage_customer_user_list div.yui-dt-hd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#manage_customer_user_list div.yui-dt-bd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#mapping_specs_list {
+    width: 946px !important;
+}
+
+#mapping_specs_list div.yui-dt-hd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#mapping_specs_list div.yui-dt-bd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#portfolioListTable {
+    width: 946px !important;
+}
+
+#portfolioListTable div.yui-dt-hd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#portfolioListTable div.yui-dt-bd table {
+    width: auto !important;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.yui-skin-sam .yui-carousel-button button {
+	visibility: hidden;
+}
+
+#expandedAlertsdataTable .yui-dt-bd {
+	overflow-x: hidden !important;
+}
+
+#portfolio_details_panel .trade_criteria_row {
+	width:440px;
+}
+
+#news_feed_list li {
+	height: 14px;
+}
+
+#graph_wapper .last_update_date{
+	padding-top:20px;
+	position:inherit;
+	float:left;
+}
+
+#graph_wapper .box_tall_hd_inner div,span {
+	width:100%;
+}
+
+span.copyright {
+	width:auto;
+}
+
+#settings_acct_cate .settings_acct_cate_item {
+	padding: 0;
+}
+
+#find_in_portfolio_input, #id-search-business-criteria {
+	vertical-align : top;
+	margin-right : 2px;
+}
+
+#find_in_note_pfm_input {
+	vertical-align : top;
+	margin-right : 2px;
+}
+
+#find_in_task_pfm_input {
+	vertical-align : top;
+	margin-right : 2px;
+}
+
+/**
+ * for CAPS admin page
+ */
+#capsAdminRight.dataTableContainer {
+	width: 675px;
+}
+
+/*
+ * for search alert monitored set (Admin)
+ */
+#alerts-monitored-search-input.alerts-monitored-search-input-fix{
+	margin-left: -170px !important;
+}
+
+#alerts-monitored-search-find-button.alerts-monitored-search-find-fix{
+	margin-left: 40px !important;
+}
+
+#alerts-monitored-search-clear-button.alerts-monitored-search-clear-fix{
+	margin-left: 160px !important;
+}
+
+/*
+Fix for alert details
+*/
+#detail_title { 
+	width: 99% !important;
+}
+
+#summaryTableAlertl2DetailBox { 
+/*	width: 99% !important; */
+}
+
+#expandedTableAlertl2DetailBox { 
+/*	width: 99% !important; */
+}
+
+#alertDetaill2expandedContainer{
+	height: 543px;
+}
+
+#alertDetaill2PrintButtonContainer{
+	height: 20px;
+	padding: 10px 10px 0 10px;
+}

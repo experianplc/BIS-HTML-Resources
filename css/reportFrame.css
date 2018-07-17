@@ -1,0 +1,81 @@
+#report_body #report_header_title {
+	display:none;
+	visibility:hidden;
+}
+td , div {font-size: 9pt; font-family: 'roboto';}
+
+/**
+ * Start css for new reports that works with iText
+ */
+@media screen
+{
+	.print_only {display: none;}
+}
+
+@media print
+{
+	.fusion_chart {display: none;}
+}
+	
+@page { 
+	size: 8.5in 11in;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0.25in;
+	margin-bottom: 0.3in;
+	border: none;
+	padding: 0;
+	tex-align: center;
+}
+
+body, a, td, th {
+	color: #015cae;
+	font-size: 10px;
+	font-family: verdana, roboto, helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.report_container {width: 715px;}
+
+.product_title {
+	font-size: 18px;
+	font-family: roboto, helvetica, sans-serif;
+}
+
+.report_header_title, .report_section_title {
+	font-size: 16px;
+	font-family: roboto, helvetica, sans-serif;
+}
+
+.report_section_subtitle {
+	font-size: 12px;
+	font-family: roboto, helvetica, sans-serif;
+	color: #ffffff;
+	padding-left: 5px;
+}
+
+.font_size_1 {
+	font-size: 10px;
+	font-family: roboto, helvetica, sans-serif;
+}
+
+.font_size_2 {
+	font-size: 12px;
+	font-family: roboto, helvetica, sans-serif;
+}
+
+.font_size_3 {
+	font-size: 16px;
+	font-family: roboto, helvetica, sans-serif;
+}
+
+.font_size_4 {
+	font-size: 18px;
+	font-family: roboto, helvetica, sans-serif;
+}
+/**
+ * End css for new reports that works with iText
+ */

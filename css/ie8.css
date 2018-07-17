@@ -1,0 +1,66 @@
+input.error,
+select.error,
+textarea.error {
+	border: 2px solid red;
+}
+
+#navigation a {
+	padding-top: 1px;
+}
+
+#navigation a.centered {
+	padding-top: 1px;
+}
+
+#account_list .ellipsis {
+	width: 150px;
+}
+
+body.yui-skin-sam .mask {
+	background-color: #eee;
+	filter:alpha(opacity=75);
+}
+
+body, div {
+  scrollbar-face-color: #E0EBF5;
+  scrollbar-arrow-color: #015CAA;
+  scrollbar-track-color: #fff;
+  scrollbar-shadow-color: #adb9c2;
+  scrollbar-highlight-color: #eaf2f7;
+  scrollbar-3dlight-color: #adb9c2;
+  scrollbar-darkshadow-Color: #fff;
+}
+
+
+body.yui-skin-sam .yui-panel .ft {
+	overflow: hidden !important;
+}
+
+#portfolioListTable .yui-dt-bd {
+	overflow-x:hidden !important;
+}
+
+/**
+ * for CAPS admin page
+ */
+#capsAdminRight.dataTableContainer {
+	width: 675px;
+}
+
+/*
+Fix for Sys admin -> List of Business IQ users
+*/
+.last_td_fix{
+	width: 150px !important;
+}
+
+/*
+Fix for alert details
+*/
+#expandedAlertsdataTable .yui-dt-hd{
+	width: 100% !important;
+}
+
+#expandedAlertsdataTable .yui-dt-bd{
+	width: 100% !important;
+}

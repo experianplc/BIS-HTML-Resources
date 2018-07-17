@@ -1,0 +1,5 @@
+@media print {
+ div.inner_wrapper{
+	margin-top : -13px;
+ }
+}

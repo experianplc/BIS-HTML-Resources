@@ -1,0 +1,203 @@
+/* modified on 05 Feb 2010 */
+.confirm_message{
+	font-weight:inherit;
+	font-size:11px;
+	font-family:Roboto,Verdana,Helvetica;
+	color:#0193DC;
+	font-weight:bold;
+	padding:5px;
+}
+.warning_message{
+	font-weight:inherit;
+	font-size:11px;
+	font-family:Roboto,Verdana,Helvetica;
+	color:red;
+	font-weight:bold;
+	padding:5px;
+}
+
+.admin_portfolio_managemnt_button_group{
+	display:none;
+	margin-top:10px;
+	padding:10px
+}
+
+.action_message {
+	font-size: 11px;
+	color: blue;
+	padding: 10px;
+	font-weight: normal;
+}
+
+
+
+.panel_content {
+	padding: 5px;
+}
+
+.portfolio_info_details{
+  border: 0px solid #666666;
+  margin-left:2px;
+  height: 350px;
+}
+
+.previous_notes
+{
+	font-weight:inherit;
+	FONT-SIZE:11px;
+	FONT-FAMILY:Roboto,Verdana,Helvetica;
+	border:1px solid CornflowerBlue;
+	margin-top: 5px;
+	margin-left: 3px;
+	height: 100px;
+	width:129Px;
+	overflow-y: auto;
+}
+
+.padding_6X6
+{
+  padding:6px;
+}
+
+.btn_grp_portfolio_managment
+{
+   margin-top: 30px;
+   margin-left: 20px;
+   display:none
+}
+
+.sub_navigation_container {
+	border-color:#BFC4C8;
+	border-style:solid;
+	border-width:0 1px 1px;
+	height:300px;
+}
+
+.tab_content {
+	display: none;
+	padding: 10px;
+	width:480px;
+}
+
+
+.sub_tabs {
+	padding-left:0px;
+}
+
+
+
+.selected_tab {
+	display: block;
+    height: 280px;
+	background-color:#EBEEF3;
+	width:480px
+}
+
+
+
+.error_list_for_TAB {
+	border: 1px solid red;
+    width: 460Px;
+	height:20PX;
+    padding: 5px;
+    margin: 5px;
+	overflow-y:auto
+}
+
+.error_list_for_TAB li {
+	color: red;
+	font-weight: bold;
+}
+
+
+
+
+
+
+html,
+/*body {
+	background-color: #fff;
+}
+
+body {
+	padding: 50px;
+}*/
+
+.padding_5x5 {
+	padding: 5px;
+}
+
+.padding_2x2 {
+	padding: 2px;
+}
+
+
+
+
+
+
+.selected_tab_body {
+	display: block;
+    border: 0px solid #666666;
+    height: 280px;
+}
+
+
+
+#portfolio_details_panel h3 {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.button_group_admin_pfm {
+	padding: 5px;
+	text-align: left;
+}
+
+
+.delete_udf {
+	cursor: pointer;
+	vertical-align: middle;
+	height: 15px;
+	width: 20px;
+	background: transparent url(../images/sprites_icons.png) no-repeat 0 -667px;
+}
+
+.add_more_udf {
+	cursor: pointer;
+	vertical-align: middle;
+	height: 15px;
+	width: 20px;
+	background: transparent url(../images/sprites_icons.png) no-repeat 0 -686px;
+}
+
+.delete_trade_criteria {
+	cursor: pointer;
+	vertical-align: middle;
+	height: 15px;
+	width: 20px;
+	background: transparent url(../images/sprites_icons.png) no-repeat 0 -667px;
+}
+
+.add_more_trade_criteria {
+	cursor: pointer;
+	vertical-align: middle;
+	height: 15px;
+	width: 20px;
+	background: transparent url(../images/sprites_icons.png) no-repeat 0 -686px;
+}
+
+.trade_criteria_container{
+    width:470;
+	height: 200px;
+    margin-top: 15px;
+    overflow-y: scroll
+}
+.trade_criteria_row {
+    border:1px solid CornflowerBlue;
+	margin-left:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:450px;
+}
+

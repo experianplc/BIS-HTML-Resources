@@ -1,0 +1,116 @@
+/****************************************
+	ams selector
+****************************************/
+.ams_selector button {
+	margin: 2px 0 0 5px;
+}
+
+/* Added By Sarbbottam */
+.ams_selector {
+	position: absolute;
+	bottom: 4px;
+	left: 270px;
+} 
+/****************************************
+	ams summary
+****************************************/
+.ams_summary_table td {
+	font-size: 12px;
+}
+
+.ams_summary_table label,
+.analysis_form label {
+	color: #0095da;
+}
+
+/****************************************
+	search
+****************************************/
+.search_bar{
+	position: relative;
+	height: 40px;
+	text-align: center;	
+}
+
+.search_bar h2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #015AAC;
+	left: 5px;
+}
+/****************************************
+	box
+****************************************/
+/* Added by Sarbbottam*/
+.very_small {
+	width: 200px;
+}
+
+.message{
+	padding-left:10px; 	padding-top:10px; padding-bottom:10px;
+}
+/****************************************
+	select
+****************************************/
+.select_label_h2 {
+	color: #005bb0;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+/****************************************
+	panel
+****************************************/
+body.yui-skin-sam .yui-panel .bd .label{
+	border-color: #015cad;
+	background-color: #fff;
+	color:#015AAC;
+	font-size: 11px;
+	font-weight: bold;
+	height:15px;	
+}
+body.yui-skin-sam .yui-panel .bd .info{
+	border-color: #015cad;
+	background-color: #fff;
+	font-size: 11px;
+	font-weight: bold;	
+	height:15px;
+}
+
+/****************************************
+	button
+****************************************/
+.button_right{
+	float:right; 
+	padding-top:4px;
+}
+.button_left{
+	float:left; 
+	padding-top:4px;
+}
+/****************************************
+	text
+****************************************/
+.sub_heading{
+	color: #005BB0;
+	font-weight: bold;
+}
+.trigger_text{	
+	font-weight: bold;
+}
+.failure_message{
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 13px;
+}
+.success_message{
+	color: #0000CC;
+	font-weight: bold;
+	font-size: 13px;
+}
+.mandatory{
+	font: #FF0000;
+}
+.paddding_15{
+	padding: 15px;
+}

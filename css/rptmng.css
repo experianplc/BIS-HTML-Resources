@@ -1,0 +1,160 @@
+/*.yui-dt-scrollable table { width: 100%; }*/
+
+.float_box{
+	float:left;
+}
+
+#admin_filter {
+	display:none;
+}
+
+.yui-button#printButtonWrap button {
+
+    /*background: url(../images/printer.png) center center no-repeat;
+    text-indent: -4em;*/
+    overflow: hidden;
+    padding: 0 .75em;
+    width: 6em;
+    border-style: 	none;
+}
+
+.yui-button#exportButtonWrap button {
+
+    /*background: url(../images/disk.png) center center no-repeat;
+    text-indent: -4em;*/
+    overflow: hidden;
+    padding: 0 .75em;
+    width: 6em;
+    border-style: 	none;
+}
+
+.twoline_button {
+	margin-top: 13px;
+}
+.checkradiobox label {
+	padding-left:10px;
+	vertical-align:middle;
+}
+.checkradiobox div {
+	margin: 5px 0 5px 0;
+}
+.floatbox {
+	float:left;
+	width:70px;
+}
+
+#getFilterDataForm .box {
+	padding-bottom:10px;
+}
+.newblock {
+	clear:both;
+}
+.toolbar li {
+	float:left;
+	padding:2px 5px 5px 0px;
+}
+td {
+	font-size:11px;
+}
+
+.body_wrapper blue_gradient {
+	font-size:11px;
+}
+.HeaderPanel{
+	position:relative;
+}
+.HeaderPanel div{
+	padding-top:10px;
+	padding-left:10px;
+}
+.box_tall_hd h2 {
+	position:relative;
+	padding-top:0px;
+	top:2px;
+}
+
+.small-title {
+	font-weight: bold;
+}
+.three-columns-box {
+	margin:0 10px 0 0;
+	width:60px;
+}
+.leftsideToolBar {
+	float:left;
+}
+.rightsideToolBar {
+	float: right;
+}
+
+.rightsideToolBar.topToolBar{
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.clear-floatlayout {
+	clear: both;
+}
+
+.clear-rightsideToolBar {
+	clear: right;
+}
+
+#task_panel {
+	width: 300px;
+}
+
+#task_panel td {
+	padding: 5px;
+}
+
+/* controls body layout of a popup panel or dialog*/
+#tasklist_panel .bd {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* controls footer layout of a popup panel or dialog*/
+#tasklist_panel .ft {
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#tasklist tr.yui-dt-selected td,
+#tasklist tr.yui-dt-selected td.yui-dt-asc,
+#tasklist tr.yui-dt-selected td.yui-dt-desc {
+	background-color: #fff;
+	color: #000;
+}
+
+#tasklist .yui-dt-hd th .yui-dt-liner {
+    white-space:normal;
+}
+
+#tasklist .yui-dt-hd th.right,
+#tasklist .yui-dt-bd td.right {
+    text-align:right;
+}
+
+#tasklist .yui-dt-hd th.center,
+#tasklist .yui-dt-bd td.center {
+    text-align:center;
+}
+
+#tasklist .yui-dt-hd th.yui-dt-col-taskPercentComplete {
+	text-align:center;
+}
+
+#tasklist tr.yui-dt-odd {
+	background-color: #fff;
+}
+
+.filters {
+	height:auto;
+}
+
+.filter_panel_container .input {
+	padding-top	:	5px;
+}

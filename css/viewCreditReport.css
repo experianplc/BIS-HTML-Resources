@@ -1,0 +1,26 @@
+	<style type="text/css">
+		/**
+		 * Start css for new reports that works with iText
+		 */
+		@page {
+			@bottom-left {
+			 	content: element(footertitle);
+			}
+			@bottom-right {
+				content: element(footercounter);
+			}
+
+			size: 8.5in 11in;
+			margin-right: 0in;
+			margin-left: 0.375in;
+			margin-top: 0.25in;
+			margin-bottom: 0.5in;
+			border: none;
+			padding: 0;
+			tex-align: center;
+		}
+
+
+		@media all {
+		}
+	</style>

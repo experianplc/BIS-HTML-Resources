@@ -1,0 +1,199 @@
+/****************************************
+	css reset
+****************************************/
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 3.0.0
+build: 1549
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/****************************************
+	global element selectors
+****************************************/
+html {
+	background-color: #F0F0F0;
+}
+
+
+html.example {
+  background-color: #fff;
+}
+
+body.example {
+	padding: 50px;
+}
+
+.masked {
+	overflow: hidden !important;
+}
+
+body {
+	margin: 0;
+	padding: 10px 0;
+	color: #666;
+	font-family:Roboto,verdana,sans-serif;
+	font-size: 11px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: none;
+	margin: 0;
+}
+
+h2 {
+	font-size: 12px;
+}
+
+.box_standard_hd_inner {
+	height: 30px;
+	background: transparent url(../images/sprites_no-repeat.png) no-repeat 0 -136px;
+	position: relative;
+	margin-right: 5px;
+	overflow: hidden;
+}
+.box_standard_hd_inner h2 {
+	color:#15428B;
+	font-family:Roboto,verdana,sans-serif;
+	font-size:14px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;	
+}
+
+
+/** Changes to cater PR#53619 BIQ US PROJ. CATALYST, Dated - 03 Feb, 2015 - Start
+Here to make print look and feel as per the BIQ Application */
+.caps_application_textbox
+{
+
+	/*border:1px solid #99BBE8;*/
+	border: 1px solid #ccc;
+	font-family:Roboto,verdana,sans-serif;
+	background-color: #fff;
+	font-size:10px;
+	font-size-adjust:none;
+	/*font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:15px;*/
+	overflow:hidden;
+	text-align:left;
+	word-wrap:break-word;
+	
+	/*border: 1px solid #ccc;
+	background-color: #fff;
+	height: 16px;
+	line-height: 16px;*/
+}
+/** Changes to cater PR#53619 BIQ US PROJ. CATALYST - End*/
+
+/** PR#53619 BIQ US PROJ. CATALYST, Dated - 03 Feb, 2015 - Start
+Here to make print look and feel as per the BIQ Application */
+.caps_udf_application_textbox
+{
+
+	/*border:1px solid #99BBE8;*/
+	border: 1px solid #ccc;
+	font-family:Roboto,verdana,sans-serif;
+	background-color: #fff;
+	font-size:10px;
+	font-size-adjust:none;
+	/*font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:15px;*/
+	overflow:hidden;
+	text-align:left;
+	word-wrap:break-word;
+	width:125px;
+	/*height:20px;*/
+}
+/** PR#53619 BIQ US PROJ. CATALYST - End*/
+
+@page { 
+margin: 0.25in; 
+-fs-flow-left: "left";
+-fs-flow-right: "right";
+}
+
+@media print {   
+ .printRow { display:block; page-break-inside:avoid; } 
+}
+
+.blue_gradient {
+	background: #fff url(../images/bg_home_main.png) repeat-x 0 0;
+}
+
+body.yui-skin-sam .yui-dt table {
+	width: 100%;
+}
+
+body.yui-skin-sam .yui-dt td table,
+body.yui-skin-sam .yui-dt td td,
+body.yui-skin-sam .yui-dt td th {
+	border: none !important;
+	background-image: none;
+	background-color: transparent;
+	border: none;
+}
+
+body.yui-skin-sam tr.yui-dt-even td.yui-dt-asc,
+body.yui-skin-sam tr.yui-dt-even td.yui-dt-desc,
+body.yui-skin-sam tr.yui-dt-odd td.yui-dt-asc,
+body.yui-skin-sam tr.yui-dt-odd td.yui-dt-desc {
+	background-color: #fff;
+}
+
+body.yui-skin-sam tr.yui-dt-highlighted td,
+body.yui-skin-sam tr.yui-dt-highlighted td.yui-dt-asc,
+body.yui-skin-sam tr.yui-dt-highlighted td.yui-dt-desc,
+body.yui-skin-sam tr.yui-dt-selected td,
+body.yui-skin-sam tr.yui-dt-selected td.yui-dt-asc,
+body.yui-skin-sam tr.yui-dt-selected td.yui-dt-desc {
+	background-color: #ffc;
+	color: #666;
+	border-right: 1px solid #ffc;
+}
+
+th.yui-dt-hidden,
+tr.yui-dt-odd .yui-dt-hidden,
+tr.yui-dt-even .yui-dt-hidden {
+	display: none !important;
+}
+
+.yui-skin-sam tbody .yui-dt-liner {
+	white-space: nowrap;
+}
+
+.yui-dt-loading,
+.loading {
+	background: #fff url(../images/ajax-loading.gif) no-repeat center center;
+	height: 50px;
+	overflow-y: visible
+}
+
+.yui-dt-empty,
+.yui-dt-error {
+	background-image: none !important;
+}
+
+body.yui-skin-sam #quicksearch th {
+	background-position: 0 -7px;
+} 
+/** Changes to cater PR#53619 BIQ US PROJ. CATALYST, Dated - 03 Feb, 2015 - Start
+Here to make print look and feel as per the BIQ Application */
+body.printAppWhite {
+	background-color: #FFF;
+}
+/** Changes to cater PR#53619 BIQ US PROJ. CATALYST - End*/

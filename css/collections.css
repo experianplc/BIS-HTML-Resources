@@ -1,0 +1,95 @@
+.row_1
+{
+	margin-top:15px;
+}
+
+.campaigns_box_header
+{
+	margin-left:10px;
+	margin-bottom:10px;
+	bottom:5px;
+	color:#015AAC;
+	font-size:15px;
+	font-weight:20;
+	overflow:hidden;
+}
+.btn_grp_print_and_export{
+}
+.header_div{
+	height:30px;
+	width :952px;
+	border:0px solid #BFC4C8;
+}
+.button_right{
+	float:right; 
+	padding-top:4px;
+}
+.box_content_ft_inner {
+line-height:27px;
+text-align:center;
+}
+
+/****************************************************
+	Portfolio-Collections
+*****************************************************/
+.port_coll_report_title{
+  background-color: #ebeef3; 
+  color:#015AAC; 
+  font-weight:bold; 
+  height:40px
+}
+
+.address_line{
+   height:15px;
+   
+}
+
+.empty_div_with_height{
+   height:200px;
+}
+
+
+.account_number_select_box{
+	bottom:0;
+	font-size:12px;
+	position:absolute;
+	right:0;
+}
+
+
+.div_btn_group_align_right
+{
+	text-align: right; 
+	padding-top:4px;
+	height:20px;
+	padding-right:10px;
+}
+
+.portfolio_collection_title
+{
+   height:40px;
+   text-align:left;
+}
+.subnavigation_wrapper {
+	background-color: ##FFFFFF;
+	border: 1px solid #C8C8C8;
+	border-bottom: none;	
+}
+.sub_navigation_content {
+	background-color: #ebeef3;
+	padding: 0px 0px 0 0;	
+}
+
+
+#datatableDNSLettersSent .yui-dt-hd,
+#datatableDNSLettersSent .yui-dt-bd {
+	border: none !important;
+}
+#datatableDNSLettersSent{
+   width:100%
+}
+
+#datatableDNSCampaignSummary{
+   width:100%
+}
+

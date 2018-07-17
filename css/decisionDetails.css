@@ -1,0 +1,98 @@
+<style>
+	#chartbody {
+		text-align	: center;
+		height		: 200px;
+		overflow-y	: auto;
+	}
+	/*
+	.decisionChartBlock {
+		display		: inline-block;
+		*display	: inline;
+		zoom		: 1;
+		height		: 41px;
+		background	: transparent url(../../resources/images/bigbutton.png) no-repeat right -43px;
+		padding		: 1px 14px 0 0;
+		font-weigth	: bold;
+		font-size	: 11px;
+
+    }*/
+	div.decisionChartDownArrow {
+		height		: 56px;
+		line-height	: 50px;
+		background	: transparent url(../../resources/images/bigdownarrow.png) no-repeat center 0;
+		font-weigth	: bold;
+		font-size	: 11px;
+	}
+	/*
+	.decisionChartBlock span {
+		display		: inline-block;
+		*display	: inline;
+		zoom		: 1;
+		height		: 100%;
+		line-height	: 40px;
+		background	: transparent url(../../resources/images/bigbutton.png) no-repeat 0px 0px;
+		padding		: 0 0 0 14px;
+
+	}
+	*/
+
+    .decisionChartBlock {
+		display		: inline-block;
+		*display	: inline;
+		zoom		: 1;
+		height		: 40px;
+		padding		: 1px 14px 0 0;
+    }
+	.decisionChartBlock span {
+		display		: inline-block;
+		*display	: inline;
+		zoom		: 1;
+		height		: 40px;
+		line-height	: 38px;
+		padding		: 0 0 0 14px;
+		font-weight	: bold;
+		font-size	: 11px;
+	}
+
+    .decisionChartBlock.Parameter {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat right -136px;
+	}    
+	.decisionChartBlock.Parameter span {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat left -93px;
+	}
+
+	.decisionChartBlock.Unknown {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat right -46px;
+	}    
+	.decisionChartBlock.Unknown span {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat left -3px;
+		color: #555555;
+	}
+
+	.decisionChartBlock.Decline {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat right -426px;
+	}    
+	.decisionChartBlock.Decline span {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat left -383px;
+		color: #eeeeee;
+	}
+
+	.decisionChartBlock.Approve {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat right -332px;
+	}    
+	.decisionChartBlock.Approve span {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat left -289px;
+		color: #ffffff;
+		line-height	: 36px;
+	}
+
+	.decisionChartBlock.Manual {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat right -236px;
+	}    
+	.decisionChartBlock.Manual span {
+		background	: transparent url(../../resources/images/sprites_decn.png) no-repeat left -193px;
+		color: #555555;
+	}
+
+
+</style>
